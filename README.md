@@ -12,6 +12,6 @@ You must include your name and email address as the original author in the heade
 
 # Submitting corrections
 
-Corrections require consensus approval.
-
 As a contributor you must include your name and email address as in the footer.
+
+Editing is unrestricted.
