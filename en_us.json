@@ -1,8 +1,8 @@
 {
   "Language Display Name": "English (US)",
-  "_comment:" "Monsta FTP Version: 2.1.5",
-  "_comment:" "Original Author: Monsta FTP <support@monstaftp.com>",
-  "_comment:" "Contributors: {add names/emails separated by commas}",
+  "_comment": "Monsta FTP Version: 2.1.5",
+  "_comment": "Original Author: Monsta FTP <support@monstaftp.com>",
+  "_comment": "Contributors: {add names/emails separated by commas}",
   
   "LOGIN": "Login",
   "CONNECT": "Connect",
