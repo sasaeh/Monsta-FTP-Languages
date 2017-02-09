@@ -1,9 +1,8 @@
 {
   "Language Display Name":   "English (US)",
-  "Monsta FTP Version":      "2.1.5",
   "Original Author":         "Monsta FTP <support@monstaftp.com>",
   "Contributors":            "add names/emails separated by commas",
-  
+
   "LOGIN": "Login",
   "CONNECT": "Connect",
   "ERROR_ATTENTION": "Error!",
@@ -53,6 +52,7 @@
 
   "OPEN_ACTION": "Open",
   "EDIT_ACTION": "Edit",
+  "VIEW_ACTION": "View",
   "DOWNLOAD_ACTION": "Download",
   "CUT_ACTION": "Cut",
   "COPY_ACTION": "Copy",
@@ -92,6 +92,7 @@
   "SEARCH_DEFERRED_ACTION": "Search…",
   "LOG_OUT_DEFERRED_ACTION": "Log Out…",
   "DOWNLOAD_UPGRADE_DEFERRED_ACTION": "Download upgrade…",
+  "VIEW_CHANGELOG_DEFERRED_ACTION": "See what's changed…",
 
   "SAVING_ACTIVITY_STATUS": "Saving…",
   "CREATING_ACTIVITY_STATUS": "Creating…",
@@ -101,12 +102,13 @@
   "MASTER_PASSWORD_ENTER_PLACEHOLDER": "Enter your master password",
   "MASTER_PASSWORD_SET_PLACEHOLDER": "Choose a master password",
 
-  "UPGRADE_MESSAGE_PROFILE": "Get more features with the Professional Edition upgrade trial",
-  "UPGRADE_MESSAGE_GENERAL": "Get  more features with the Professional Edition upgrade trial",
+  "UPGRADE_MESSAGE_PROFILE": "Get the Professional Edition upgrade trial FREE for 45 days!",
+  "UPGRADE_MESSAGE_GENERAL": "Get the Professional Edition upgrade trial FREE for 45 days!",
   "UPGRADE_MESSAGE_TRY_ADVANCED_EDITOR": "Try the Advanced  Editor",
 
   "HISTORY_EMPTY_MESSAGE": "Your history is empty",
 
+  "ENTERPRISE_EDITION": "Your current license is the Enterprise Edition",
   "PROFESSIONAL_EDITION": "Your current license is the Professional Edition",
   "STARTER_EDITION": "Your current license is the Starter Edition",
   "LICENSE_VALID_UNTIL_MESSAGE": "Your license is valid until {expiry_date}",
@@ -144,6 +146,7 @@
   "UPLOAD_IN_QUEUE_MESSAGE": "In queue",
   "UPLOAD_CANCEL_ITEM_CONFIRM_MESSAGE": "Are you sure you want to cancel uploading {item_name}?",
   "UPLOAD_FILES_TOO_LARGE_MESSAGE": "The following {item_count, plural, one{item exceeds} other{items exceed}} the maximum upload size allowed ({maximum_size}) by your server configuration: ",
+  "UPLOAD_FAILED_MESSAGE": "The upload failed:",
   "MULTIPLE_FILE_ARCHIVE_ERROR": "Only one zip file may be uploaded and extract at a time.",
   "INVALID_TYPE_ARCHIVE_ERROR": "Please only select a zip file to upload and extract",
 
@@ -162,6 +165,7 @@
 
   "EDITOR_CLOSE_CONFIRM_MESSAGE": "File {file_name} has been edited but not saved, are you sure you want to close this tab?",
 
+  "DROP_FILES_INSTRUCTION": "Drop files here",
   "FOLDER_UPLOAD_CHROME_ONLY_MESSAGE": "Folder uploads are only supported in Chrome.",
 
   "URL_INVALID_MESSAGE": "Please enter a URL starting with http:// or https://",
