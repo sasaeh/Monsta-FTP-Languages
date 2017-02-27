@@ -1,8 +1,8 @@
 {
   "Language Display Name":   "Deutsch (CH)",
-  "Monsta FTP Version":      "2.1.6",
+  "Monsta FTP Version":      "2.3.3",
   "Original Author":         "Peter Keist <info@peterkeist.ch>",
-  "Contributors":            "add names/emails separated by commas",
+  "Contributors":            "Patrik Thuerlemann <info@clesys.net>",
 
   "LOGIN": "Anmelden",
   "CONNECT": "Verbinden",
@@ -52,6 +52,7 @@
   "SESSION_INFORMATION": "Sessioninformation",
 
   "OPEN_ACTION": "Öffnen",
+  "VIEW_ACTION": "Zeigen",
   "EDIT_ACTION": "Bearbeiten",
   "DOWNLOAD_ACTION": "Herunterladen",
   "CUT_ACTION": "Ausschneiden",
@@ -108,6 +109,7 @@
 
   "HISTORY_EMPTY_MESSAGE": "Der Verlauf ist leer",
 
+  "ENTERPRISE_EDITION": "Unternehmensversion",
   "PROFESSIONAL_EDITION": "Profiversion",
   "STARTER_EDITION": "Basisversion",
   "LICENSE_VALID_UNTIL_MESSAGE": "Lizenz gültig bis {expiry_date}.",
@@ -164,7 +166,8 @@
 
   "EDITOR_CLOSE_CONFIRM_MESSAGE": "Die Datei {file_name} wurde geändert und noch nicht gespeichert, soll das Fenster trotzdem geschlossen werden?",
 
-  "FOLDER_UPLOAD_CHROME_ONLY_MESSAGE": "Hochladen von kompletten Ordnern wird nur im Chrome-Browser unterstützt.",
+  "DROP_FILES_INSTRUCTION": "Dateien hier ablegen",
+  "FOLDER_UPLOAD_NOT_SUPPORTED_MESSAGE": "Dein Browser unterstützt keine Ordner uploads.",
 
   "URL_INVALID_MESSAGE": "Bitte eine gültige URL beginnend mit http:// oder https:// eingeben",
 
@@ -207,6 +210,7 @@
   "FOLDER_MAKE_OPERATION": "Ordner erstellen",
   "FILE_MAKE_OPERATION": "Datei erstellen",
   "DIRECTORY_CHANGE_OPERATION": "Verzeichnis wechseln",
+  "GET_CWD_OPERATION": "aktuelles Verzeichnis laden",
 
   "OPERATION_TIMEOUT": "Die {action}-Operation dauert zu lange",
   "CONNECTION_FAILURE_ERROR": "{protocol}-Verbindung zu {host}:{port} fehlgeschlagen.",
