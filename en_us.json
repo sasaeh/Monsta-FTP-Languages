@@ -1,7 +1,5 @@
 {
-  "Language Display Name":   "English (US)",
-  "Original Author":         "Monsta FTP <support@monstaftp.com>",
-  "Contributors":            "add names/emails separated by commas",
+  "Language Display Name": "English (US)",
 
   "LOGIN": "Login",
   "CONNECT": "Connect",
@@ -76,6 +74,7 @@
   "SHOW_DOT_FILES_LABEL": "Show system files (e.g. .htaccess)",
   "EDIT_NEW_FILES_IMMEDIATELY_LABEL": "Open editable files in editor after creation",
   "CHANGE_SERVER_ACTION": "Log in to another server",
+  "EXTRACT_ACTION": "Extract",
 
   "DELETE_DEFERRED_ACTION": "Delete…",
   "RENAME_DEFERRED_ACTION": "Rename…",
@@ -87,7 +86,7 @@
   "UPLOAD_DEFERRED_ACTION": "Upload…",
   "UPLOAD_FOLDER_DEFERRED_ACTION": "Upload Folder…",
   "UPLOAD_FILE_DEFERRED_ACTION": "Upload File…",
-  "UPLOAD_ARCHIVE_DEFERRED_ACTION": "Upload and Extract Zip…",
+  "UPLOAD_ARCHIVE_DEFERRED_ACTION": "Upload Zip…",
   "FETCH_FILE_DEFERRED_ACTION": "Fetch File…",
   "SEARCH_DEFERRED_ACTION": "Search…",
   "LOG_OUT_DEFERRED_ACTION": "Log Out…",
@@ -102,8 +101,8 @@
   "MASTER_PASSWORD_ENTER_PLACEHOLDER": "Enter your master password",
   "MASTER_PASSWORD_SET_PLACEHOLDER": "Choose a master password",
 
-  "UPGRADE_MESSAGE_PROFILE": "Get the Professional Edition upgrade trial FREE for 45 days!",
-  "UPGRADE_MESSAGE_GENERAL": "Get the Professional Edition upgrade trial FREE for 45 days!",
+  "UPGRADE_MESSAGE_PROFILE": "Unlock more features with our FREE 45-day upgrade trial!",
+  "UPGRADE_MESSAGE_GENERAL": "Unlock more features with our FREE 45-day upgrade trial!",
   "UPGRADE_MESSAGE_TRY_ADVANCED_EDITOR": "Try the Advanced  Editor",
 
   "HISTORY_EMPTY_MESSAGE": "Your history is empty",
@@ -135,20 +134,19 @@
   "PERMISSIONS_INVALID_NUMBER_MESSAGE": "This number is invalid",
   "PERMISSIONS_FAILURE_PRECEDING_MESSAGE": "Changing item permissions failed with error:",
 
-  "EXTRACT_AFTER_UPLOAD_TITLE": "Extract after upload?",
-  "EXTRACT_AFTER_UPLOAD_MESSAGE": "{file_name} is a {file_type} file, do you want to extract it after uploading?",
+  "EXTRACT_AFTER_UPLOAD_TITLE": "File Archive Detected",
+  "EXTRACT_AFTER_UPLOAD_MESSAGE": "The file \"{file_name}\" is a {file_type} archive. Do you want to unzip the files to the current folder after uploading?",
   "UPLOAD_STANDARD_ACTION": "Just Upload",
-  "UPLOAD_EXTRACT_ACTION": "Upload and Extract",
+  "UPLOAD_EXTRACT_ACTION": "Upload and Unzip",
 
   "COMPLETED_OF_TOTAL_JOINER": "of",
   "UPLOAD_TRANSFERRING_TO_SERVER_MESSAGE": "Transferring to server",
   "UPLOAD_ARCHIVE_TRANSFERRING_MESSAGE": "Extracting…",
-  "UPLOAD_IN_QUEUE_MESSAGE": "In queue",
   "UPLOAD_CANCEL_ITEM_CONFIRM_MESSAGE": "Are you sure you want to cancel uploading {item_name}?",
   "UPLOAD_FILES_TOO_LARGE_MESSAGE": "The following {item_count, plural, one{item exceeds} other{items exceed}} the maximum upload size allowed ({maximum_size}) by your server configuration: ",
   "UPLOAD_FAILED_MESSAGE": "The upload failed:",
   "MULTIPLE_FILE_ARCHIVE_ERROR": "Only one zip file may be uploaded and extract at a time.",
-  "INVALID_TYPE_ARCHIVE_ERROR": "Please only select a zip file to upload and extract",
+  "INVALID_TYPE_ARCHIVE_ERROR": "Please only select a zip file to upload and extract.",
 
   "NEW_VERSION_AVAILABLE_MESSAGE": "A new version of {application_name} is available.",
 
@@ -166,7 +164,7 @@
   "EDITOR_CLOSE_CONFIRM_MESSAGE": "File {file_name} has been edited but not saved, are you sure you want to close this tab?",
 
   "DROP_FILES_INSTRUCTION": "Drop files here",
-  "FOLDER_UPLOAD_CHROME_ONLY_MESSAGE": "Folder uploads are only supported in Chrome.",
+  "FOLDER_UPLOAD_NOT_SUPPORTED_MESSAGE": "Your browser does not support folder uploads.",
 
   "URL_INVALID_MESSAGE": "Please enter a URL starting with http:// or https://",
 
@@ -184,9 +182,6 @@
   "PRIVATE_KEY_LOAD_ERROR": "Unable to load private key at {path}.",
   "PUBLIC_KEY_LOAD_ERROR": "Unable to load public key at {path}.",
   "DECRYPT_ERROR": "Unable to decrypt message.",
-
-  "SFTP_NOT_AVAILABLE_MESSAGE": "Your PHP install does not appear to support the SSH2 library.",
-  "SFTP_README_LINK_TEXT": "View our install guide",
 
   "CHANGE_PERMISSIONS_OPERATION": "change permissions",
   "DELETE_DIRECTORY_OPERATION": "delete directory",
@@ -209,6 +204,8 @@
   "FOLDER_MAKE_OPERATION": "folder make",
   "FILE_MAKE_OPERATION": "file make",
   "DIRECTORY_CHANGE_OPERATION": "change directory",
+  "GET_CWD_OPERATION": "get current directory",
+  "DOWNLOAD_FOR_EXTRACT_OPERATION": "download file for extract",
 
   "OPERATION_TIMEOUT": "The {action} operation timed out",
   "CONNECTION_FAILURE_ERROR": "{protocol} connection to {host}:{port} failed.",
