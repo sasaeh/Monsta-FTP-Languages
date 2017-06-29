@@ -1,7 +1,6 @@
 {
-  "Language Display Name":   "Russian (RU)",
-  "Original Author":         "Pavel Chistyakov <chistik10@yandex.ru>",
-  
+  "Language Display Name": "Russian (RU)",
+
   "LOGIN": "Войти",
   "CONNECT": "Подключение",
   "ERROR_ATTENTION": "Ошибка!",
@@ -102,7 +101,7 @@
   "MASTER_PASSWORD_ENTER_PLACEHOLDER": "Введите ваш мастер-пароль",
   "MASTER_PASSWORD_SET_PLACEHOLDER": "Выберите мастер-пароль",
 
-  "UPGRADE_MESSAGE_PROFILE": "Получить больше функций с бесплатным обновлением (на 45 дней"),
+  "UPGRADE_MESSAGE_PROFILE": "Получить больше функций с бесплатным обновлением (на 45 дней)",
   "UPGRADE_MESSAGE_GENERAL": "Получить больше функций с бесплатным обновлением (на 45 дней)",
   "UPGRADE_MESSAGE_TRY_ADVANCED_EDITOR": "Попробовать расширенный редактор",
 
@@ -114,7 +113,7 @@
   "LICENSE_VALID_UNTIL_MESSAGE": "Ваша лицензия действительна до {expiry_date}",
   "LICENSE_EXPIRED_ON_MESSAGE": "Ваша лицензия истекает {expiry_date}",
   "RENEW_NOW_MESSAGE": "Продлить",
-  "SAVE_LICENSE_ACTION": "Полное обновление",
+  "SAVE_LICENSE_ACTION": "Обновить",
   "LICENSE_NEW_PLACEHOLDER": "Вставьте здесь ваш новый ключ лицензии…",
   "LICENSE_UPDATE_PLACEHOLDER": "Вставьте здесь ваш обновлённый ключ лицензии…",
 
