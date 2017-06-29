@@ -1,8 +1,6 @@
 {
   "Language Display Name":   "Russian (RU)",
-  "Monsta FTP Version":      "2.1.5",
   "Original Author":         "Pavel Chistyakov <chistik10@yandex.ru>",
-  "Contributors":            "add names/emails separated by commas",
   
   "LOGIN": "Войти",
   "CONNECT": "Подключение",
@@ -53,6 +51,7 @@
 
   "OPEN_ACTION": "Открыть",
   "EDIT_ACTION": "Редактировать",
+  "VIEW_ACTION": "Посмотреть",
   "DOWNLOAD_ACTION": "Скачать",
   "CUT_ACTION": "Вырезать",
   "COPY_ACTION": "Копировать",
@@ -76,6 +75,7 @@
   "SHOW_DOT_FILES_LABEL": "Показывать системные файлы (напр. .htaccess)",
   "EDIT_NEW_FILES_IMMEDIATELY_LABEL": "Открыть редактируемые файлы в редакторе после создания",
   "CHANGE_SERVER_ACTION": "Войти на другой сервер",
+  "EXTRACT_ACTION": "Извлечь",
 
   "DELETE_DEFERRED_ACTION": "Удалить…",
   "RENAME_DEFERRED_ACTION": "Переименовать…",
@@ -87,11 +87,12 @@
   "UPLOAD_DEFERRED_ACTION": "Загрузить…",
   "UPLOAD_FOLDER_DEFERRED_ACTION": "Загрузить папку…",
   "UPLOAD_FILE_DEFERRED_ACTION": "Загрузить файл…",
-  "UPLOAD_ARCHIVE_DEFERRED_ACTION": "Загрузить и распаковать ZIP…",
+  "UPLOAD_ARCHIVE_DEFERRED_ACTION": "Загрузить ZIP…",
   "FETCH_FILE_DEFERRED_ACTION": "Получить файл…",
   "SEARCH_DEFERRED_ACTION": "Поиск…",
   "LOG_OUT_DEFERRED_ACTION": "Выйти…",
   "DOWNLOAD_UPGRADE_DEFERRED_ACTION": "Скачать обновление…",
+  "VIEW_CHANGELOG_DEFERRED_ACTION": "Посмотреть изменения…",
 
   "SAVING_ACTIVITY_STATUS": "Сохранение…",
   "CREATING_ACTIVITY_STATUS": "Создание…",
@@ -101,12 +102,13 @@
   "MASTER_PASSWORD_ENTER_PLACEHOLDER": "Введите ваш мастер-пароль",
   "MASTER_PASSWORD_SET_PLACEHOLDER": "Выберите мастер-пароль",
 
-  "UPGRADE_MESSAGE_PROFILE": "Получить больше функций с обновлением до Профессиональной версии",
-  "UPGRADE_MESSAGE_GENERAL": "Получить больше функций с обновлением до Профессиональной версии",
+  "UPGRADE_MESSAGE_PROFILE": "Получить больше функций с бесплатным обновлением (на 45 дней"),
+  "UPGRADE_MESSAGE_GENERAL": "Получить больше функций с бесплатным обновлением (на 45 дней)",
   "UPGRADE_MESSAGE_TRY_ADVANCED_EDITOR": "Попробовать расширенный редактор",
 
   "HISTORY_EMPTY_MESSAGE": "Ваша история пуста",
 
+  "ENTERPRISE_EDITION": "Ваша текущая лицензия: версия для предприятий",
   "PROFESSIONAL_EDITION": "Ваша текущая лицензия: Профессиональная версия",
   "STARTER_EDITION": "Ваша текущая лицензия: Стартовая версия",
   "LICENSE_VALID_UNTIL_MESSAGE": "Ваша лицензия действительна до {expiry_date}",
@@ -133,8 +135,8 @@
   "PERMISSIONS_INVALID_NUMBER_MESSAGE": "Это число неверно",
   "PERMISSIONS_FAILURE_PRECEDING_MESSAGE": "Изменение прав доступа закончилось с ошибкой:",
 
-  "EXTRACT_AFTER_UPLOAD_TITLE": "Распаковать после загрузки?",
-  "EXTRACT_AFTER_UPLOAD_MESSAGE": "{file_name} это {file_type} файл, хотите распаковать его после загрузки?",
+  "EXTRACT_AFTER_UPLOAD_TITLE": "Обнаружены архивы",
+  "EXTRACT_AFTER_UPLOAD_MESSAGE": "Файл \"{file_name}\" является {file_type} архивом. Хотите распаковать файлы в текущую папку после загрузки?",
   "UPLOAD_STANDARD_ACTION": "Только загрузить",
   "UPLOAD_EXTRACT_ACTION": "Загрузить и распаковать",
 
@@ -144,8 +146,9 @@
   "UPLOAD_IN_QUEUE_MESSAGE": "В очереди",
   "UPLOAD_CANCEL_ITEM_CONFIRM_MESSAGE": "Вы уверены, что хотите отменить загрузку {item_name}?",
   "UPLOAD_FILES_TOO_LARGE_MESSAGE": "{item_count, plural, one{Объект превышает} other{Объекты превышают}} максимально возможный размер файла ({maximum_size}), разрешённый сервером: ",
+  "UPLOAD_FAILED_MESSAGE": "Загрузка неудалась:",
   "MULTIPLE_FILE_ARCHIVE_ERROR": "Только один zip-файл может загружаться и распаковываться одновременно.",
-  "INVALID_TYPE_ARCHIVE_ERROR": "Пожалуйста, выберите только zip-файл для загрузки и распаковки",
+  "INVALID_TYPE_ARCHIVE_ERROR": "Пожалуйста, выберите только zip-файл для загрузки и распаковки.",
 
   "NEW_VERSION_AVAILABLE_MESSAGE": "Доступна новая версия {application_name}.",
 
@@ -162,7 +165,8 @@
 
   "EDITOR_CLOSE_CONFIRM_MESSAGE": "Файл {file_name} был изменён, но не сохранён. Вы уверены, что хотите закрыть эту вкладку?",
 
-  "FOLDER_UPLOAD_CHROME_ONLY_MESSAGE": "Загрузка папок доступна только в Chrome.",
+  "DROP_FILES_INSTRUCTION": "Поместите файлы сюда",
+  "FOLDER_UPLOAD_NOT_SUPPORTED_MESSAGE": "Ваш браузер не поддерживает загрузку папок.",
 
   "URL_INVALID_MESSAGE": "Пожалуйста, введите URL, начинающийся с http:// или https://",
 
@@ -180,9 +184,6 @@
   "PRIVATE_KEY_LOAD_ERROR": "Не удалось загрузить приватный ключ с {path}.",
   "PUBLIC_KEY_LOAD_ERROR": "Не удалось загрузить публичный ключ с {path}.",
   "DECRYPT_ERROR": "Не удалось расшифровать сообщение.",
-
-  "SFTP_NOT_AVAILABLE_MESSAGE": "Ваша установленная версия PHP не поддерживает SSH2 библиотеку.",
-  "SFTP_README_LINK_TEXT": "Посмотреть наше руководство по установке",
 
   "CHANGE_PERMISSIONS_OPERATION": "изменение прав доступа",
   "DELETE_DIRECTORY_OPERATION": "удаление папки",
@@ -205,6 +206,8 @@
   "FOLDER_MAKE_OPERATION": "создание папки",
   "FILE_MAKE_OPERATION": "создание файла",
   "DIRECTORY_CHANGE_OPERATION": "изменение папки",
+  "GET_CWD_OPERATION": "получить текущую папку",
+  "DOWNLOAD_FOR_EXTRACT_OPERATION": "скачать файл для распаковки",
 
   "OPERATION_TIMEOUT": "Время операции {action} истекло",
   "CONNECTION_FAILURE_ERROR": "{protocol} соединение с {host}:{port} закончилось неудачно.",
