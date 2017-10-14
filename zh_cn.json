@@ -252,7 +252,7 @@
 
   "LOGIN_FAILURE_EXCEEDED_ERROR": "登录错误次数过多. 请在{banTimeMinutes} {banTimeMinutes, plural, one{分钟} other{分钟}}后重试.",
 
-  "PASTE_TO_SUB_DIRECTORY_ERROR": "无法粘贴选择的目录到他自己之中."
+  "PASTE_TO_SUB_DIRECTORY_ERROR": "无法粘贴选择的目录到他自己之中.",
 
   "SHOW_PASSWORD_MANAGEMENT": "密码管理器",
   "SHOW_LOGIN_FORM": "返回登录",
