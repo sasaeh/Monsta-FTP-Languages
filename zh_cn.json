@@ -1,8 +1,8 @@
 {
   "Language Display Name": "中文 (CN)",
-  "Monsta FTP Version":      "2.3.6",
-  "Original Author":         "bbbboom <bwdyxg@gmail.com>",
-  "Contributors":            "add names/emails separated by commas",
+  "Monsta FTP Version":    "2.5.2",
+  "Original Author":       "bbbboom <bwdyxg@gmail.com>",
+  "Contributors":          "add names/emails separated by commas",
 
   "LOGIN": "登陆",
   "CONNECT": "连接",
@@ -77,6 +77,7 @@
   "SHOW_DOT_FILES_LABEL": "显示系统文件 (如：.htaccess)",
   "EDIT_NEW_FILES_IMMEDIATELY_LABEL": "新建文件后在编辑器中打开它",
   "CHANGE_SERVER_ACTION": "登录到另一台服务器",
+  "EXTRACT_ACTION": "获取",
 
   "DELETE_DEFERRED_ACTION": "删除…",
   "RENAME_DEFERRED_ACTION": "重命名…",
@@ -100,31 +101,31 @@
   "RENAMING_ACTIVITY_STATUS": "正在重命名…",
   "FETCHING_ACTIVITY_STATUS": "正在远程下载中…",
 
-  "MASTER_PASSWORD_ENTER_PLACEHOLDER": "输入你的主密码",
+  "MASTER_PASSWORD_ENTER_PLACEHOLDER": "输入您的主密码",
   "MASTER_PASSWORD_SET_PLACEHOLDER": "选择一个主密码",
 
   "UPGRADE_MESSAGE_PROFILE": "通过我们免费45天的升级试用期来解锁更多的功能!",
   "UPGRADE_MESSAGE_GENERAL": "通过我们免费45天的升级试用期来解锁更多的功能!",
   "UPGRADE_MESSAGE_TRY_ADVANCED_EDITOR": "试试高级编辑器",
 
-  "HISTORY_EMPTY_MESSAGE": "你的浏览历史为空",
+  "HISTORY_EMPTY_MESSAGE": "您的浏览历史为空",
 
-  "ENTERPRISE_EDITION": "你当前的许可证是 Enterprise Edition",
-  "PROFESSIONAL_EDITION": "你当前的许可证是 Professional Edition",
-  "STARTER_EDITION": "你当前的许可证是 Starter Edition",
-  "LICENSE_VALID_UNTIL_MESSAGE": "你的许可证有效期至{expiry_date}",
-  "LICENSE_EXPIRED_ON_MESSAGE": "你的许可证将在{expiry_date}后过期",
+  "ENTERPRISE_EDITION": "您当前的许可证是 Enterprise Edition",
+  "PROFESSIONAL_EDITION": "您当前的许可证是 Professional Edition",
+  "STARTER_EDITION": "您当前的许可证是 Starter Edition",
+  "LICENSE_VALID_UNTIL_MESSAGE": "您的许可证有效期至{expiry_date}",
+  "LICENSE_EXPIRED_ON_MESSAGE": "您的许可证将在{expiry_date}后过期",
   "RENEW_NOW_MESSAGE": "现在更新",
   "SAVE_LICENSE_ACTION": "完成更新",
-  "LICENSE_NEW_PLACEHOLDER": "粘贴你的新许可证到这里…",
-  "LICENSE_UPDATE_PLACEHOLDER": "粘贴你的升级许可证到这里…",
+  "LICENSE_NEW_PLACEHOLDER": "粘贴您的新许可证到这里…",
+  "LICENSE_UPDATE_PLACEHOLDER": "粘贴您的升级许可证到这里…",
 
-  "COPY_FAILURE_MESSAGE": "不幸的是你的浏览器不支持自动复制, 请从文本框中复制地址.",
+  "COPY_FAILURE_MESSAGE": "不幸的是您的浏览器不支持自动复制, 请从文本框中复制地址.",
   "LOGIN_LINK_BAD_CONFIGURATION_MESSAGE": "需要更多登录字段的值来生成一个链接 (至少需要一个主机地址.)",
   "COPY_LOGIN_LINK_PROMPT": "复制链接到剪贴板",
   "GENERATE_LOGIN_LINK_TITLE": "生成登录链接",
   "GENERATE_LOGIN_LINK_ACTION": "生成登录链接",
-  "LOGIN_LINK_HINT": "你可以在Monsta FTP上使用这个链接来直接登录到你的FTP服务器.",
+  "LOGIN_LINK_HINT": "您可以在Monsta FTP上使用这个链接来直接登录到您的FTP服务器.",
 
   "PERMISSIONS_READ": "读取",
   "PERMISSIONS_WRITE": "写入",
@@ -137,23 +138,22 @@
   "PERMISSIONS_FAILURE_PRECEDING_MESSAGE": "更改项目权限失败:",
 
   "EXTRACT_AFTER_UPLOAD_TITLE": "文件存档检测",
-  "EXTRACT_AFTER_UPLOAD_MESSAGE": "文件 \"{file_name}\" 是一个{file_type}文件. 你想在上传完成后解压这个文件到当前文件夹吗?",
+  "EXTRACT_AFTER_UPLOAD_MESSAGE": "文件 {file_name} 是一个{file_type}文件. 您想在上传完成后解压这个文件到当前文件夹吗?",
   "UPLOAD_STANDARD_ACTION": "只是上传",
   "UPLOAD_EXTRACT_ACTION": "上传并解压",
 
   "COMPLETED_OF_TOTAL_JOINER": "of",
   "UPLOAD_TRANSFERRING_TO_SERVER_MESSAGE": "正在传输到服务器",
   "UPLOAD_ARCHIVE_TRANSFERRING_MESSAGE": "正在解压…",
-  "UPLOAD_IN_QUEUE_MESSAGE": "队列中",
-  "UPLOAD_CANCEL_ITEM_CONFIRM_MESSAGE": "你确定要取消上传{item_name}吗?",
+  "UPLOAD_CANCEL_ITEM_CONFIRM_MESSAGE": "您确定要取消上传{item_name}吗?",
   "UPLOAD_FILES_TOO_LARGE_MESSAGE": "以下{item_count, plural, one{个项目超过了} other{个项目超过了}} 您的服务器配置中允许的最大上传大小 ({maximum_size}) : ",
   "UPLOAD_FAILED_MESSAGE": "上传失败:",
   "MULTIPLE_FILE_ARCHIVE_ERROR": "一次只能上传并解压一个文件.",
-  "INVALID_TYPE_ARCHIVE_ERROR": "请只选择一个压缩文件来上传和解压",
+  "INVALID_TYPE_ARCHIVE_ERROR": "请只选择一个压缩文件来上传和解压.",
 
   "NEW_VERSION_AVAILABLE_MESSAGE": "{application_name} 有新版本了.",
 
-  "DELETE_CONFIRM_MESSAGE": "你确定要删除 {item_count, plural, one{# 个项目} other{# 个项目}}?",
+  "DELETE_CONFIRM_MESSAGE": "您确定要删除 {item_count, plural, one{# 个项目} other{# 个项目}}?",
 
   "RENAME_FILE_PROMPT_TITLE": "重命名文件",
   "RENAME_FILE_NAME_PLACEHOLDER": "输入新的文件名",
@@ -164,20 +164,22 @@
   "FILE_NAME_EMPTY_MESSAGE": "{item_type}名称不能为空.",
   "EXISTING_FILE_SUFFIX": "复制",
 
-  "EDITOR_CLOSE_CONFIRM_MESSAGE": "文件 {file_name} 已编辑但未保存, 你确定要关闭这个选项卡吗?",
+  "EDITOR_CLOSE_CONFIRM_MESSAGE": "文件 {file_name} 已编辑但未保存, 您确定要关闭这个选项卡吗?",
 
   "DROP_FILES_INSTRUCTION": "拖拽文件到这里",
-  "FOLDER_UPLOAD_NOT_SUPPORTED_MESSAGE": "你的浏览器不支持上传文件夹.",
+  "FOLDER_UPLOAD_NOT_SUPPORTED_MESSAGE": "您的浏览器不支持上传文件夹.",
+  "FOLDER_UPLOAD_DISABLED": "抱歉, 文件夹上传不可用.",
+  "FILE_UPLOAD_DISABLED": "抱歉, 文件上传不可用.",
 
   "URL_INVALID_MESSAGE": "请输入一个由http://或https://开头的链接",
 
   "FETCH_FILE_PROMPT_TITLE": "远程下载",
   "FETCH_FILE_URL_PLACEHOLDER": "输入文件下载链接（支持http,https）",
 
-  "PROFILE_DELETE_CONFIRM_MESSAGE": "你确定要删除这个已保存的配置文件吗?",
-  "PROFILE_SET_PASSWORD_ERROR": "请输入一个密码以保护你已保存的配置文件.",
+  "PROFILE_DELETE_CONFIRM_MESSAGE": "您确定要删除这个已保存的配置文件吗?",
+  "PROFILE_SET_PASSWORD_ERROR": "请输入一个密码以保护您已保存的配置文件.",
 
-  "LOGOUT_CONFIRM_MESSAGE": "你确定要退出吗?",
+  "LOGOUT_CONFIRM_MESSAGE": "您确定要退出吗?",
 
   "FETCH_IN_PROGRESS_ERROR": "不能获取请求，因为有一个已经在进行中.",
   "FETCH_FAILED_ERROR": "获取远程文件 {url} 失败: {cause}.",
@@ -185,9 +187,6 @@
   "PRIVATE_KEY_LOAD_ERROR": "无法加载私钥 {path}.",
   "PUBLIC_KEY_LOAD_ERROR": "无法加载公钥 {path}.",
   "DECRYPT_ERROR": "无法解密信息.",
-
-  "SFTP_NOT_AVAILABLE_MESSAGE": "你安装的PHP似乎并不支持SSH2库.",
-  "SFTP_README_LINK_TEXT": "查看我们的安装指南",
 
   "CHANGE_PERMISSIONS_OPERATION": "更改权限",
   "DELETE_DIRECTORY_OPERATION": "删除目录",
@@ -211,8 +210,9 @@
   "FILE_MAKE_OPERATION": "创建文件",
   "DIRECTORY_CHANGE_OPERATION": "更改目录",
   "GET_CWD_OPERATION": "获取当前目录",
+  "DOWNLOAD_FOR_EXTRACT_OPERATION": "下载文件并提取",
 
-  "OPERATION_TIMEOUT": " {action} 操作已超时",
+  "OPERATION_TIMEOUT": "{action} 操作已超时",
   "CONNECTION_FAILURE_ERROR": "{protocol} 连接到 {host}:{port} 失败.",
   "UNCONNECTED_DISCONNECT_ERROR": "无法断开一个未连接的连接.",
   "FILE_DOES_NOT_EXIST_ERROR": "{protocol} {operation} 时出错, 文件未找到: {path}.",
@@ -241,6 +241,7 @@
   "SETTINGS_WRITE_ERROR": "无法写入JSON设置到 {path}.",
   "ARCHIVE_READ_ERROR": "无法读取压缩文件.",
   "LICENSE_WRITE_ERROR": "无法写入许可证文件到 {path}",
+  "LICENSE_DIRECTORY_NOT_WRITABLE_ERROR": "许可证文件夹 {path} 不可写, 请检查它的权限 (web服务必须有可写权限).",
   "PRO_CONFIG_WRITE_ERROR": "无法写入高级配置到 {path}",
   "REPLACEMENT_LICENSE_OLDER_ERROR": "新的许可证没有保存，因为它的到期日期早于当前的许可证.",
   "INVALID_POSTED_LICENSE_ERROR": "输入的许可证无效.",
@@ -249,5 +250,31 @@
   "SFTP_AUTHENTICATION_DISABLED_MESSAGE": "由于安全原因，默认情况下这个身份验证方法已被禁用.",
   "SFTP_AUTHENTICATION_ENABLED_INSTRUCTIONS_MESSAGE": "如何启用？",
 
+  "LOGIN_FAILURE_EXCEEDED_ERROR": "登录错误次数过多. 请在{banTimeMinutes} {banTimeMinutes, plural, one{分钟} other{分钟}}后重试.",
+
   "PASTE_TO_SUB_DIRECTORY_ERROR": "无法粘贴选择的目录到他自己之中."
+
+  "SHOW_PASSWORD_MANAGEMENT": "密码管理器",
+  "SHOW_LOGIN_FORM": "返回登录",
+  "PASSWORD_MANAGEMENT": "密码管理器",
+
+  "PASSWORD_MANAGEMENT_USERNAME_LABEL": "用户名",
+
+  "FORGOT_PASSWORD": "忘记密码",
+  "FORGOT_PASSWORD_INSTRUCTIONS": "输入您的用户名以发起忘记密码的请求.",
+  "INITIATE_FORGOT_PASSWORD": "获取密码",
+  "FORGOT_PASSWORD_FAILED": "忘记密码请求失败.",
+  "FORGOT_PASSWORD_SUCCEEDED": "忘记密码请求成功.",
+
+  "RESET_PASSWORD": "重置密码",
+  "RESET_PASSWORD_INSTRUCTIONS": "输入您的用户名和密码, 并设置一个新的密码.",
+  "CURRENT_PASSWORD_LABEL": "当前密码",
+  "NEW_PASSWORD_LABEL": "新密码",
+  "CONFIRM_PASSWORD_LABEL": "确认密码",
+  "INITIATE_RESET_PASSWORD": "重置密码",
+  "PASSWORD_MISMATCH_ERROR": "您两次输入的密码不一致.",
+  "RESET_PASSWORD_FAILED": "重置密码请求失败.",
+  "RESET_PASSWORD_SUCCEEDED": "重置密码请求成功.",
+
+  "FORM_INCOMPLETE_ERROR": "请填写所有表单字段后再提交."
 }
