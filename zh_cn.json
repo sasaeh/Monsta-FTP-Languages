@@ -3,6 +3,7 @@
   "Monsta FTP Version":    "2.5.2",
   "Original Author":       "bbbboom <bwdyxg@gmail.com>",
   "Contributors":          "add names/emails separated by commas",
+  "Consult":               "http://www.unicode.org/cldr/charts/latest/supplemental/language_plural_rules.html#zh",
 
   "LOGIN": "登陆",
   "CONNECT": "连接",
@@ -40,7 +41,7 @@
   "PRIVATE_KEY": "私钥",
   "PUBLIC_KEY": "公钥",
   "OPTIONAL_OPTIONAL": "(可选)",
-  "BYTE": "{size, plural, one{byte} other{bytes}}",
+  "BYTE": "bytes",
   "PROFILE_NAME_LABEL": "配置文件名 (可选)",
 
   "CURRENT_HOST": "当前主机",
@@ -146,14 +147,14 @@
   "UPLOAD_TRANSFERRING_TO_SERVER_MESSAGE": "正在传输到服务器",
   "UPLOAD_ARCHIVE_TRANSFERRING_MESSAGE": "正在解压…",
   "UPLOAD_CANCEL_ITEM_CONFIRM_MESSAGE": "您确定要取消上传{item_name}吗?",
-  "UPLOAD_FILES_TOO_LARGE_MESSAGE": "以下{item_count, plural, one{个项目超过了} other{个项目超过了}} 您的服务器配置中允许的最大上传大小 ({maximum_size}) : ",
+  "UPLOAD_FILES_TOO_LARGE_MESSAGE": "以下 {item_count} 个项目超过了您的服务器配置中允许的最大上传大小 ({maximum_size}) : ",
   "UPLOAD_FAILED_MESSAGE": "上传失败:",
   "MULTIPLE_FILE_ARCHIVE_ERROR": "一次只能上传并解压一个文件.",
   "INVALID_TYPE_ARCHIVE_ERROR": "请只选择一个压缩文件来上传和解压.",
 
   "NEW_VERSION_AVAILABLE_MESSAGE": "{application_name} 有新版本了.",
 
-  "DELETE_CONFIRM_MESSAGE": "您确定要删除 {item_count, plural, one{# 个项目} other{# 个项目}}?",
+  "DELETE_CONFIRM_MESSAGE": "您确定要删除这 {item_count} 个项目吗?",
 
   "RENAME_FILE_PROMPT_TITLE": "重命名文件",
   "RENAME_FILE_NAME_PLACEHOLDER": "输入新的文件名",
@@ -250,7 +251,7 @@
   "SFTP_AUTHENTICATION_DISABLED_MESSAGE": "由于安全原因，默认情况下这个身份验证方法已被禁用.",
   "SFTP_AUTHENTICATION_ENABLED_INSTRUCTIONS_MESSAGE": "如何启用？",
 
-  "LOGIN_FAILURE_EXCEEDED_ERROR": "登录错误次数过多. 请在{banTimeMinutes} {banTimeMinutes, plural, one{分钟} other{分钟}}后重试.",
+  "LOGIN_FAILURE_EXCEEDED_ERROR": "登录错误次数过多. 请在 {banTimeMinutes} 分钟后重试.",
 
   "PASTE_TO_SUB_DIRECTORY_ERROR": "无法粘贴选择的目录到他自己之中.",
 
