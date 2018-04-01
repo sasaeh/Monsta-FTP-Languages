@@ -1,6 +1,6 @@
 {
   "Language Display Name": "中文 (CN)",
-  "Monsta FTP Version":    "2.5.2",
+  "Monsta FTP Version":    "2.6",
   "Original Author":       "bbbboom <bwdyxg@gmail.com>",
   "Contributors":          "add names/emails separated by commas",
   "Consult":               "http://www.unicode.org/cldr/charts/latest/supplemental/language_plural_rules.html#zh",
@@ -105,8 +105,9 @@
   "MASTER_PASSWORD_ENTER_PLACEHOLDER": "输入您的主密码",
   "MASTER_PASSWORD_SET_PLACEHOLDER": "选择一个主密码",
 
-  "UPGRADE_MESSAGE_PROFILE": "通过我们免费45天的升级试用期来解锁更多的功能!",
-  "UPGRADE_MESSAGE_GENERAL": "通过我们免费45天的升级试用期来解锁更多的功能!",
+  "UPGRADE_MESSAGE_PROFILE": "通过我们免费的45天升级试用期来解锁更多的功能!",
+  "UPGRADE_MESSAGE_GENERAL": "通过我们免费的45天升级试用期来解锁更多的功能!",
+  "UPGRADE_MESSAGE_LINK_TEXT": "获得免费的45天试用许可证",
   "UPGRADE_MESSAGE_TRY_ADVANCED_EDITOR": "试试高级编辑器",
 
   "HISTORY_EMPTY_MESSAGE": "您的浏览历史为空",
@@ -121,12 +122,12 @@
   "LICENSE_NEW_PLACEHOLDER": "粘贴您的新许可证到这里…",
   "LICENSE_UPDATE_PLACEHOLDER": "粘贴您的升级许可证到这里…",
 
-  "COPY_FAILURE_MESSAGE": "不幸的是您的浏览器不支持自动复制, 请从文本框中复制地址.",
+  "COPY_FAILURE_MESSAGE": "不幸的是您的浏览器不支持自动复制，请从文本框中复制地址.",
   "LOGIN_LINK_BAD_CONFIGURATION_MESSAGE": "需要更多登录字段的值来生成一个链接 (至少需要一个主机地址.)",
   "COPY_LOGIN_LINK_PROMPT": "复制链接到剪贴板",
   "GENERATE_LOGIN_LINK_TITLE": "生成登录链接",
   "GENERATE_LOGIN_LINK_ACTION": "生成登录链接",
-  "LOGIN_LINK_HINT": "您可以在Monsta FTP上使用这个链接来直接登录到您的FTP服务器.",
+  "LOGIN_LINK_HINT": "您可以使用这个链接来直接登录到您的FTP服务器.",
 
   "PERMISSIONS_READ": "读取",
   "PERMISSIONS_WRITE": "写入",
@@ -143,7 +144,7 @@
   "UPLOAD_STANDARD_ACTION": "只是上传",
   "UPLOAD_EXTRACT_ACTION": "上传并解压",
 
-  "COMPLETED_OF_TOTAL_JOINER": "of",
+  "COMPLETED_OF_TOTAL_JOINER": "的",
   "UPLOAD_TRANSFERRING_TO_SERVER_MESSAGE": "正在传输到服务器",
   "UPLOAD_ARCHIVE_TRANSFERRING_MESSAGE": "正在解压…",
   "UPLOAD_CANCEL_ITEM_CONFIRM_MESSAGE": "您确定要取消上传{item_name}吗?",
@@ -165,12 +166,12 @@
   "FILE_NAME_EMPTY_MESSAGE": "{item_type}名称不能为空.",
   "EXISTING_FILE_SUFFIX": "复制",
 
-  "EDITOR_CLOSE_CONFIRM_MESSAGE": "文件 {file_name} 已编辑但未保存, 您确定要关闭这个选项卡吗?",
+  "EDITOR_CLOSE_CONFIRM_MESSAGE": "文件 {file_name} 已编辑但未保存，您确定要关闭这个选项卡吗?",
 
   "DROP_FILES_INSTRUCTION": "拖拽文件到这里",
   "FOLDER_UPLOAD_NOT_SUPPORTED_MESSAGE": "您的浏览器不支持上传文件夹.",
-  "FOLDER_UPLOAD_DISABLED": "抱歉, 文件夹上传不可用.",
-  "FILE_UPLOAD_DISABLED": "抱歉, 文件上传不可用.",
+  "FOLDER_UPLOAD_DISABLED": "抱歉，文件夹上传不可用.",
+  "FILE_UPLOAD_DISABLED": "抱歉，文件上传不可用.",
 
   "URL_INVALID_MESSAGE": "请输入一个由http://或https://开头的链接",
 
@@ -216,10 +217,10 @@
   "OPERATION_TIMEOUT": "{action} 操作已超时",
   "CONNECTION_FAILURE_ERROR": "{protocol} 连接到 {host}:{port} 失败.",
   "UNCONNECTED_DISCONNECT_ERROR": "无法断开一个未连接的连接.",
-  "FILE_DOES_NOT_EXIST_ERROR": "{protocol} {operation} 时出错, 文件未找到: {path}.",
-  "FILE_EXISTS_ERROR": "{protocol} {operation} 时出错, 文件存在于: {path}.",
-  "FILE_PERMISSION_ERROR": "{protocol} {operation} 时出错, 权限被拒绝于: {path}.",
-  "GENERAL_FILE_SOURCE_ERROR": "{protocol} {operation} 时出错, at {path}: {message}.",
+  "FILE_DOES_NOT_EXIST_ERROR": "{protocol} {operation} 时出错，文件未找到: {path}.",
+  "FILE_EXISTS_ERROR": "{protocol} {operation} 时出错，文件存在于: {path}.",
+  "FILE_PERMISSION_ERROR": "{protocol} {operation} 时出错，权限被拒绝于: {path}.",
+  "GENERAL_FILE_SOURCE_ERROR": "{protocol} {operation} 时出错，at {path}: {message}.",
   "OPERATION_BEFORE_CONNECTION_ERROR": "不能 {operation} 在 {protocol} 已经连接之前.",
   "OPERATION_BEFORE_AUTHENTICATION_ERROR": "不能 {operation} 在 {protocol} 已经认证之前.",
   "AUTHENTICATION_FAILED_ERROR": "{protocol} 认证失败.",
@@ -231,28 +232,31 @@
   "GET_SYSTEM_TYPE_BEFORE_CONNECTION_ERROR": "尝试在连接之前获取系统类型.",
   "GET_SYSTEM_TYPE_FAILED_ERROR": "获取系统类型失败",
   "GET_WORKING_DIRECTORY_BEFORE_CONNECTION_ERROR": "在连接前试图获取工作目录.",
-  "DEBIAN_PRIVATE_KEY_BUG_ERROR": "由于一个PHP的问题, 私钥和密码可能无法工作在 Ubuntu/Debian. 请查阅 https://bugs.php.net/bug.php?id=58573",
+  "DEBIAN_PRIVATE_KEY_BUG_ERROR": "由于一个PHP的问题，私钥和密码可能无法工作在 Ubuntu/Debian. 请查阅 https://bugs.php.net/bug.php?id=58573",
   "COULD_NOT_LOAD_PROFILE_DATA_ERROR": "无法从配置文件 {path} 加载有效数据.",
   "PROFILE_NOT_READABLE_ERROR": "配置文件存在于 {path} 但用所给密码无法读取它.",
   "PROFILE_SIZE_READ_ERROR": "配置文件存在于 {path} 但无法获得它的大小.",
   "UNSUPPORTED_CIPHER_ERROR": "加密方法 {method_name} 不支持.",
   "PROBABLE_INCORRECT_PASSWORD_ERROR": "无法读取配置，密码可能不正确.",
-  "IV_GENERATE_ERROR": "无法生成一个iv, 得到了 FALSE",
+  "IV_GENERATE_ERROR": "无法生成一个iv，得到了 FALSE",
   "SETTINGS_READ_ERROR": "无法读取JSON设置到 {path}.",
   "SETTINGS_WRITE_ERROR": "无法写入JSON设置到 {path}.",
   "ARCHIVE_READ_ERROR": "无法读取压缩文件.",
   "LICENSE_WRITE_ERROR": "无法写入许可证文件到 {path}",
-  "LICENSE_DIRECTORY_NOT_WRITABLE_ERROR": "许可证文件夹 {path} 不可写, 请检查它的权限 (web服务必须有可写权限).",
+  "LICENSE_DIRECTORY_NOT_WRITABLE_ERROR": "许可证文件夹 \"{path}\" 不可写，请检查它的权限 (web服务必须有可写权限).",
+  "INSTALL_PATH_NOT_WRITABLE_ERROR": "安装路径 \"{path}\" 不可写，请检查它的权限 (web服务必须有可写权限).",
+  "FILE_NOT_WRITABLE_ERROR": "\"{path}\" 不可写，请检查它的权限 (web服务必须有可写权限).",
   "PRO_CONFIG_WRITE_ERROR": "无法写入高级配置到 {path}",
   "REPLACEMENT_LICENSE_OLDER_ERROR": "新的许可证没有保存，因为它的到期日期早于当前的许可证.",
   "INVALID_POSTED_LICENSE_ERROR": "输入的许可证无效.",
   "SFTP_AUTHENTICATION_NOT_ENABLED": "必须在配置中启用所选身份验证类型.",
+  "CURL_NOT_INSTALLED_MESSAGE": "cURL函数并未安装在您的系统上，这是是HTTP操作所必需的函数，请参阅PHP文档进行安装.",
 
   "SFTP_AUTHENTICATION_DISABLED_MESSAGE": "由于安全原因，默认情况下这个身份验证方法已被禁用.",
   "SFTP_AUTHENTICATION_ENABLED_INSTRUCTIONS_MESSAGE": "如何启用？",
 
   "LOGIN_FAILURE_EXCEEDED_ERROR": "登录错误次数过多. 请在 {banTimeMinutes} 分钟后重试.",
-
+  "TLS_REQUIRED_ERROR": "您要连接的服务器需要启用SSL.",
   "PASTE_TO_SUB_DIRECTORY_ERROR": "无法粘贴选择的目录到他自己之中.",
 
   "SHOW_PASSWORD_MANAGEMENT": "密码管理器",
@@ -268,7 +272,7 @@
   "FORGOT_PASSWORD_SUCCEEDED": "忘记密码请求成功.",
 
   "RESET_PASSWORD": "重置密码",
-  "RESET_PASSWORD_INSTRUCTIONS": "输入您的用户名和密码, 并设置一个新的密码.",
+  "RESET_PASSWORD_INSTRUCTIONS": "输入您的用户名和密码，并设置一个新的密码.",
   "CURRENT_PASSWORD_LABEL": "当前密码",
   "NEW_PASSWORD_LABEL": "新密码",
   "CONFIRM_PASSWORD_LABEL": "确认密码",
@@ -277,5 +281,19 @@
   "RESET_PASSWORD_FAILED": "重置密码请求失败.",
   "RESET_PASSWORD_SUCCEEDED": "重置密码请求成功.",
 
-  "FORM_INCOMPLETE_ERROR": "请填写所有表单字段后再提交."
+  "FORM_INCOMPLETE_ERROR": "请填写所有表单字段后再提交.",
+
+  "LATEST_VERSION_AVAILABLE_MESSAGE": "{version} 版本的Monsta FTP可供下载.",
+  "AUTOMATIC_UPGRADE_REQUIRES_PROFILE_PASSWORD_MESSAGE": "您必须在登录模式中设置主密码才能安装升级.",
+  "AUTOMATIC_UPGRADE_LICENSED_ONLY_MESSAGE": "自动升级仅适用于Monsta FTP的许可版本. {trial_link}.",
+  "PRE_UPGRADE_RELEASE_NOTES_MESSAGE": "在升级之前，请阅读我们的 {release_notes_link}，因为需要注意有一些配置可能需要做出更改.",
+  "RELEASE_NOTES_UPGRADE_LINK_TEXT": "发行说明",
+  "START_UPGRADE_ACTION": "开始升级",
+  "DO_NOT_CLOSE_DURING_UPGRADE_BROWSER_MESSAGE": "在升级过程中请不要关闭浏览器.",
+  "UPGRADING_TITLE": "正在升级",
+  "UPGRADE_ARCHIVE_NOT_VALID_ERROR": "\"{path}\"中的文件似乎不是Monsta FTP的安装压缩文件.",
+  "INSTALL_ARCHIVE_EXTRACT_ERROR": "无法解压安装档案.",
+  "UPGRADE_COMPLETE_MESSAGE": "恭喜，Monsta已安装. 请刷新页面并使用{version}版的Monsta.",
+  "REFRESH": "刷新",
+  "USER_UI_AUTHORISED_MESSAGE": "您现在已登录并可以开始升级."
 }
