@@ -159,7 +159,7 @@
 
   "NEW_VERSION_AVAILABLE_MESSAGE": "Eine neue Version von {application_name} ist verfügbar.",
 
-  "DELETE_CONFIRM_MESSAGE": "Sind Sie sicher, dass Sie {item_count, plural, one{# item} other{# items}}} löschen möchten?",
+  "DELETE_CONFIRM_MESSAGE": "Sind Sie sicher, dass Sie {item_count, plural, one{# item} other{# items}} löschen möchten?",
 
   "RENAME_FILE_PROMPT_TITLE": "Datei umbenennen",
   "RENAME_FILE_NAME_PLACEHOLDER": "Neuen Dateinamen eingeben",
