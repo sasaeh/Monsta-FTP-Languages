@@ -1,6 +1,6 @@
 {
   "Language Display Name": "中文 (CN)",
-  "Monsta FTP Version":    "2.6",
+  "Monsta FTP Version":    "2.9.1",
   "Original Author":       "bbbboom <bwdyxg@gmail.com>",
   "Contributors":          "add names/emails separated by commas",
   "Consult":               "http://www.unicode.org/cldr/charts/latest/supplemental/language_plural_rules.html#zh",
@@ -25,7 +25,7 @@
   "CHANGE_FILE_PERMISSIONS": "更改文件权限",
   "FILE_TRANSFER": "文件传输",
   "PROPERTIES": "属性",
-  "UPGRADE_AVAILABLE": "有可用更新",
+  "UPDATE_AVAILABLE": "有可用更新",
 
   "HOST": "主机",
   "PORT": "端口",
@@ -41,7 +41,7 @@
   "PRIVATE_KEY": "私钥",
   "PUBLIC_KEY": "公钥",
   "OPTIONAL_OPTIONAL": "(可选)",
-  "BYTE": "bytes",
+  "BYTE": "{size, plural, one{byte} other{bytes}}",
   "PROFILE_NAME_LABEL": "配置文件名 (可选)",
 
   "CURRENT_HOST": "当前主机",
@@ -58,6 +58,7 @@
   "DOWNLOAD_ACTION": "下载",
   "CUT_ACTION": "剪切",
   "COPY_ACTION": "复制",
+  "COPY_NAME_ACTION": "复制名称",
   "PASTE_ACTION": "粘贴",
   "CHMOD_ACTION": "更改权限",
   "BACK_ACTION": "返回",
@@ -94,7 +95,7 @@
   "FETCH_FILE_DEFERRED_ACTION": "远程下载…",
   "SEARCH_DEFERRED_ACTION": "搜索…",
   "LOG_OUT_DEFERRED_ACTION": "退出…",
-  "DOWNLOAD_UPGRADE_DEFERRED_ACTION": "下载更新…",
+  "DOWNLOAD_UPDATE_DEFERRED_ACTION": "下载更新…",
   "VIEW_CHANGELOG_DEFERRED_ACTION": "查看有哪些改变…",
 
   "SAVING_ACTIVITY_STATUS": "正在保存…",
@@ -105,16 +106,14 @@
   "MASTER_PASSWORD_ENTER_PLACEHOLDER": "输入您的主密码",
   "MASTER_PASSWORD_SET_PLACEHOLDER": "选择一个主密码",
 
-  "UPGRADE_MESSAGE_PROFILE": "通过我们免费的45天升级试用期来解锁更多的功能!",
   "UPGRADE_MESSAGE_GENERAL": "通过我们免费的45天升级试用期来解锁更多的功能!",
   "UPGRADE_MESSAGE_LINK_TEXT": "获得免费的45天试用许可证",
-  "UPGRADE_MESSAGE_TRY_ADVANCED_EDITOR": "试试高级编辑器",
 
   "HISTORY_EMPTY_MESSAGE": "您的浏览历史为空",
 
-  "ENTERPRISE_EDITION": "您当前的许可证是 Enterprise Edition",
-  "PROFESSIONAL_EDITION": "您当前的许可证是 Professional Edition",
-  "STARTER_EDITION": "您当前的许可证是 Starter Edition",
+  "ENTERPRISE_EDITION": "您当前的许可证是 “企业版”",
+  "PROFESSIONAL_EDITION": "您当前的许可证是 “专业版”",
+  "STARTER_EDITION": "您当前的许可证是 “简易版”",
   "LICENSE_VALID_UNTIL_MESSAGE": "您的许可证有效期至{expiry_date}",
   "LICENSE_EXPIRED_ON_MESSAGE": "您的许可证将在{expiry_date}后过期",
   "RENEW_NOW_MESSAGE": "现在更新",
@@ -144,7 +143,12 @@
   "UPLOAD_STANDARD_ACTION": "只是上传",
   "UPLOAD_EXTRACT_ACTION": "上传并解压",
 
-  "COMPLETED_OF_TOTAL_JOINER": "的",
+  "CONFIRM_UPLOAD_OVERWRITE_TITLE": "替换 {file_name}?",
+  "CONFIRM_UPLOAD_OVERWRITE_MESSAGE": "文件 {file_name} 已存在. 是否要将其替换为上传的文件?",
+  "UPLOAD_OVERWRITE_ACTION": "上传并替换",
+  "UPLOAD_KEEP_ACTION": "保留远程文件",
+
+  "COMPLETED_OF_TOTAL_JOINER": "/",
   "UPLOAD_TRANSFERRING_TO_SERVER_MESSAGE": "正在传输到服务器",
   "UPLOAD_ARCHIVE_TRANSFERRING_MESSAGE": "正在解压…",
   "UPLOAD_CANCEL_ITEM_CONFIRM_MESSAGE": "您确定要取消上传{item_name}吗?",
@@ -152,6 +156,7 @@
   "UPLOAD_FAILED_MESSAGE": "上传失败:",
   "MULTIPLE_FILE_ARCHIVE_ERROR": "一次只能上传并解压一个文件.",
   "INVALID_TYPE_ARCHIVE_ERROR": "请只选择一个压缩文件来上传和解压.",
+  "QUOTA_EXCEEDED_MESSAGE": "您的FTP帐户配额已经用尽.",
 
   "NEW_VERSION_AVAILABLE_MESSAGE": "{application_name} 有新版本了.",
 
@@ -285,7 +290,7 @@
 
   "LATEST_VERSION_AVAILABLE_MESSAGE": "{version} 版本的Monsta FTP可供下载.",
   "AUTOMATIC_UPGRADE_REQUIRES_PROFILE_PASSWORD_MESSAGE": "您必须在登录模式中设置主密码才能安装升级.",
-  "AUTOMATIC_UPGRADE_LICENSED_ONLY_MESSAGE": "自动升级仅适用于Monsta FTP的许可版本. {trial_link}.",
+  "AUTOMATIC_UPGRADE_LICENSED_ONLY_MESSAGE": "自动升级仅适用于Monsta FTP的更新版本. 请 {download_link} 最新版本并手动更新您当前安装的版本.",
   "PRE_UPGRADE_RELEASE_NOTES_MESSAGE": "在升级之前，请阅读我们的 {release_notes_link}，因为需要注意有一些配置可能需要做出更改.",
   "RELEASE_NOTES_UPGRADE_LINK_TEXT": "发行说明",
   "START_UPGRADE_ACTION": "开始升级",
@@ -295,5 +300,18 @@
   "INSTALL_ARCHIVE_EXTRACT_ERROR": "无法解压安装档案.",
   "UPGRADE_COMPLETE_MESSAGE": "恭喜，Monsta已安装. 请刷新页面并使用{version}版的Monsta.",
   "REFRESH": "刷新",
-  "USER_UI_AUTHORISED_MESSAGE": "您现在已登录并可以开始升级."
+  "USER_UI_AUTHORISED_MESSAGE": "您现在已登录并可以开始升级.",
+  
+  "FILE_CHANGED_CONFIRM_TITLE": "文件内容已在服务器上发生更改",
+  "FILE_CHANGE_CONFIRM_MESSAGE": "自上次加载文件后，该文件已在服务器上发生更改. 您是否要使用当前更改覆盖服务器文件, 或从服务器加载更改?",
+  "FILE_CHANGED_OVERWRITE": "覆盖服务器上的文件",
+  "FILE_CHANGED_LOAD": "从服务器加载更改",
+
+  "POWERED_BY_MONSTA_FTP": "由 Monsta FTP 提供技术支持",
+  "UPGRADE_DOWNLOAD_LINK_TEXT": "下载",
+  "UPGRADE_REQUIRED": "必须升级",
+  "UPGRADE_REQUIRED_MESSAGE": "糟糕, 您已经点击了仅在升级版本中可用的操作. 您可以 {trial_link} 免费使用45天, 或 {purchase_link}.",
+  "UPGRADE_TRIAL_LINK_TEXT": "试用升级",
+  "UPGRADE_PURCHASE_LINK_TEXT": "立即购买",
+  "REMOTE_FILE_NOT_FOUND": "糟糕, 该文件在网络上不存在. 请检查您的网址."
 }
